@@ -1,0 +1,105 @@
+*{margin:0px;padding:0px box-sizing:border-box;}
+
+.header{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(56deg,#00c6a7,#1e4d92);
+	clip-path:polygon(0% 0%,100% 0%,100% 75%, 0% 100%);
+}
+nav{
+	width:100%;
+	height:50vh;
+	display:flex;
+	
+
+}
+.logo{
+	width:50%;
+	height:100px;
+	
+
+}
+.logo >h1{
+	padding-left:40px;
+	color:aqua;
+	font-family: 'Bungee Outline', cursive;
+
+}
+.menu{
+	width:50%;
+	
+}
+.menu > a{
+	line-height:100px;
+	padding:40px;
+	text-decoration:none;
+	font-weight:200px;
+	/*color:#00c6a7;*/
+	color:aliceblue;
+}
+
+.logo >h1{
+	line-height:100px;
+	    font-size: 90px;
+    font-style: inherit;
+    font-weight: 500;
+}
+	
+section{
+	display:flex;
+}
+.right > h1{
+	   /* 
+   
+    color: aqua;
+    font-weight: 500;
+    margin:476;*/
+    position: relative;
+    left: 550px;
+    color: aliceblue;
+    font-size: 50px;
+     font-weight: 300px;
+
+}
+.right >h4{
+	  /*  font-size: 15px;
+    font font-weight: 100;
+    font-weight: 800;
+    color: darkslategrey;
+}*/
+
+    position: relative;
+    margin-left: 644px;
+}
+.btn{
+
+	   margin-left: 670px;
+    border-radius: 15px;
+    margin-top: 5px;
+    font-size:20px;
+}
+.btn:hover{
+	color:#00c6a7;
+	background-color:#88ffec;
+
+}
+
+.footer{
+	font-size:25px;
+	text-align:center;
+	font-family: 'Bungee Outline', cursive;
+	margin:0px;
+	padding:0px;
+	/*color:#569299;*/
+color:#000000;
+}
+.footer >h5{
+	font-size:15px;
+	text-align:center;
+	font-family: 'Bungee Outline', cursive;
+	margin:0px;
+	padding:0px;
+	/*color:#569299;*/
+	color:#000000;
+
+}
